@@ -9,7 +9,7 @@ on:
 # Dagger plan gets configured via client environment variables
 env:
   # This needs to be unique across all of netlify.app
-  APP_NAME: todoapp-dagger-ryandcoates
+  APP_NAME: rcoates-dagger-todoapp
   NETLIFY_TEAM: ryandcoates
 
 jobs:
