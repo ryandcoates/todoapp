@@ -44,7 +44,7 @@ dagger.#Plan & {
 		// Deploy todoapp
 		deploy: netlify.#Deploy & {
 			contents: actions.build.output
-			site:     string | *"dagger-todoapp"
+			site:     string | "rcoates-dagger-todoapp"
 		}
 	}
 }
