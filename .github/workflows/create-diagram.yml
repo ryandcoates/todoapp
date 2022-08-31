@@ -1,0 +1,19 @@
+
+name: todoapp
+
+on:
+  push:
+    # Trigger this workflow only on commits pushed to the main branch
+    branches:
+      - main
+
+jobs:
+  visualize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Update diagram
+        uses: githubocto/repo-visualizer@main
+        with:
+          excluded_paths: "ignore,.github"
