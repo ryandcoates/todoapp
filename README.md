@@ -5,6 +5,9 @@ Sample todo app built with the React/ReactDOM framework. For the accompanying do
 
 For the live version, see https://mdn.github.io/todo-react-build/.
 
+## Code Visualization
+
+![Visualization of this repo](./diagram.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
